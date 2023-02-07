@@ -40,7 +40,7 @@ public class SingleFileSinkConnector extends SinkConnector {
         Map<String, String> taskProps = new HashMap<>();
         taskProps.putAll(configProperties);
         for (int i = 0; i < maxTasks; i++) {
-            taskConfigs.add(taskProps)
+            taskConfigs.add(taskProps);
         }
         return taskConfigs;
     }
